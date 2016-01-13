@@ -21,7 +21,7 @@ i pobrojenja.
 
 NizoviKaoArgumenti
 ------------------
-Niz kao argument metode: prenosi se referenca pa možemo mijenjati ćlanove niza.
+Niz kao argument metode: prenosi se referenca pa možemo mijenjati članove niza.
 
 
 NizoviKaoPovratnaVrijednost
