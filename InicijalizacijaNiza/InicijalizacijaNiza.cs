@@ -12,19 +12,21 @@ namespace Vsite.CSharp
 
             int[] nizBrojeva;  // deklaracija reference na niz
 
-            // TODO: nizBrojeva inicijalizirati kao niz duljine n (pojedine èlanove ostaviti neinicijaliziranima) te ispisati sve èlanove takvog neinicijaliziranog niza
+            // nizBrojeva inicijalizirati kao niz duljine n (pojedine èlanove ostaviti neinicijaliziranima) te ispisati sve èlanove takvog neinicijaliziranog niza
 
-
-
+            nizBrojeva = new int[n];
+            foreach (var a in nizBrojeva)
+                Console.WriteLine(n);
 
             Control[] nizKontrola;  // deklaracija reference na niz 
 
-            // TODO: nizKontrola inicijalizirati kao niz duljine n (pojedine èlanove ostaviti neinicijaliziranima) te ispisati sve èlanove takvog neinicijaliziranog niza
+            // nizKontrola inicijalizirati kao niz duljine n (pojedine èlanove ostaviti neinicijaliziranima) te ispisati sve èlanove takvog neinicijaliziranog niza
+
+            nizKontrola = new Control[n];
 
 
-
-
-            // TODO: Pokrenuti program te ispis prekopirati u datoteku "InicijalizacijaNiza.txt" u ovom projektu. Obrazložiti ispise u gornja dva sluèaja.
+            // Pokrenuti program te ispis prekopirati u datoteku "InicijalizacijaNiza.txt" u ovom projektu. Obrazložiti ispise u gornja dva sluèaja.
+       
 
             // inicijalizacija pojedinih èlanova
             nizKontrola[0] = new Button();
